@@ -4,6 +4,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
+use pocketmine\event\player\PlayerJoinEvent;
 class MainClass extends PluginBase implements Listener{
 
 public function onJoin(PlayerJoinEvent $event){
